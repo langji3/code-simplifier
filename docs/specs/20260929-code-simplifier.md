@@ -9,7 +9,7 @@ AI 在代码审查和实现中可能引入假想需求、冗余抽象，或未�
 - 用户在来源聊天 `01a0eb2c-9648-7643-a891-d3e91d5374f8` 确认需求，本聊天补充普通代码审查时自动发现，并确认源码与 marketplace 分离。
 - 本地源码项目：`D:\Project\personal\code-simplifier`，与 `D:\Project\personal\ai-dev-protocol` 同级；新建 `main` 的初始提交 `a71f5981ad75bc1dbb0017a15eff1b32154546c5`，在 `codex/20260929-langji-code-simplifier` 隔离开发。
 - 分发项目 `langji-ai-marketplace` 另有同名隔离分支；其 `docs/specs/20260929-code-simplifier.md` 规定安装入口、快照和范围。
-- 不创建远端仓库，不推送、合并、发布或更改已安装的个人插件配置。
+- 初始实施不创建远端仓库、不推送或合并。完成验收后，用户另行授权合并、推送，并明确授权创建公开的 `langji3/code-simplifier`；个人已安装插件配置仍不改。
 
 ## 本次范围
 
